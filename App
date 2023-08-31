@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Company</title>
+</head>
+<body>
+    <h1>Create a New Company</h1>
+    <form method="POST">
+        <label for="name">Company Name:</label>
+        <input type="text" name="name" required><br>
+        <label for="reg_number">Registration Number:</label>
+        <input type="text" name="reg_number" required><br>
+        <input type="submit" value="Create Company">
+    </form>
+</body>
+</html>
